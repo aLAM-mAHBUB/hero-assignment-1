@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.purple-highlight {
+    color: #363958;
+}
+
+.orange-highlight {
+    color: #ff8367;
+}
+
+.tomato-highlight {
+    color: #f46060;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header area starts here */
+.header-area {
+    background-color: rgba(150, 117, 250, 1);
+    overflow: hidden;
+}
+
+.main-menu {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+.main-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+/* header area ends here */
+
+/* details area starts here */
+.details-area {
+    overflow: hidden;
+    padding: 70px 0;
+}
+
+.content {
+    margin-right: 10%;
+}
+
+.col-1-2 {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+}
+
+.col-1-2 img {
+    width: 80%;
+    height: auto;
+}
+
+.details-area h1 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 80px;
+    line-height: auto;
+    margin: 0px;
+}
+
+.details-area p {
+    font-family: "Roboto", sans-serif;
+    color: #3e3e3e;
+    line-height: 24px;
+}
+
+.my-button {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(360deg, #e5c100, tomato);
+    padding: 20px 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+/* details area ends here */
+
+/* about area starts here */
+.about-area {
+    overflow: hidden;
+    background-color: rgba(150, 117, 250, 0.1);
+    padding: 120px 0px;
+}
+
+.about-area h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 48px;
+}
+
+.about-area p {
+    color: #3e3e3e;
+    line-height: 24px;
+}
+
+/* about area ends here */
+
+/* portfolio area starts here */
+.portfolio-area {
+    padding: 50px 0px 150px 0px;
+    overflow: hidden;
+}
+
+.col-1-3 {
+    width: 28%;
+    float: left;
+}
+
+.col-1-3 img {
+    width: 100%;
+    height: auto;
+}
+
+.col-1-3 p {
+    line-height: 28px;
+    font-family: "Roboto", sans-serif;
+}
+
+.portfolio-area h1 {
+    font-family: "Bebas Neue", cursive;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+.portfolio-area h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.common-margin {
+    margin-right: 2%;
+}
+
+.common-shadow {
+    box-shadow: 5px 10px 20px grey;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+/* portfolio area ends here */
+
+/* services area starts here */
+.services-area {
+    background-color: rgba(150, 117, 250, 0.1);
+    overflow: hidden;
+    padding: 120px 0;
+}
+
+.col-1-4 {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.services-area img {
+    width: 64px;
+}
+
+.services-area h2 {
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    font-size: 48px;
+}
+
+.services-area h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.services-area p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.shadow-design {
+    box-shadow: 10px 10px 25px rgb(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 5px 20px 50px;
+    height: 250px;
+    background-color: #fff;
+}
+
+.shadow-design img {
+    margin-top: 30px;
+}
+
+.special-box-margin {
+    margin-top: 15px;
+}
+
+.upper-margin {
+    margin-top: 50px;
+}
+.service-margin {
+    margin-left: 10%;
+}
+/* services area ends here */
+
+/* inquiry area starts here */
+.inquiry-area {
+    background-image: url("images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60%;
+    margin: 80px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center center;
+}
+
+.inquiry-area h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 64px;
+    font-family: "Bebas Neue", cursive;
+    color: white;
+    display: inline-block;
+}
+
+.inquiry-area a {
+    margin-top: 9px;
+    display: inline-block;
+    float: right;
+}
+/* inquiry area ends here */
+
+/* contact area starts here */
+.contact-area {
+    overflow: hidden;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-area h5 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 24px;
+    color: #696871;
+}
+
+/* contact area ends here */
