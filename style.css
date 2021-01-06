@@ -118,6 +118,11 @@ body {
     line-height: 24px;
 }
 
+.fa,
+.fas {
+    margin-right: 15px;
+}
+
 /* about area ends here */
 
 /* portfolio area starts here */
