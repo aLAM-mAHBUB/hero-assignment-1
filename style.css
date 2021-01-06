@@ -255,8 +255,9 @@ body {
 
 /* contact area starts here */
 .contact-area {
+    background-color: rgba(150, 117, 250, 0.1);
     overflow: hidden;
-    padding: 20px 0;
+    padding: 120px 0;
     text-align: center;
 }
 
